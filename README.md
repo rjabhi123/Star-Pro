@@ -21,6 +21,11 @@ This is a Udacity Starbucks Capston Project
   
 # Files
 
-  * jyupter Notebook file : Starbucks_Capstone_notebook.ipynb
-  * HTML file : Starbucks_Capstone_notebook.html
+  * jyupter Notebook file :-  Starbucks_Capstone_notebook.ipynb
+  * HTML file :-  Starbucks_Capstone_notebook.html
+  * Data file :-  portfolio.json, profile.json and transcript.json.
+  
+# Acknowledgements
+I want to thank the Udacity Data Science Nano-Degree Program for giving me this opportunity to do the project.
+
   
