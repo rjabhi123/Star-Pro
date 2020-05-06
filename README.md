@@ -7,7 +7,6 @@ It is the Starbucks Capstone Challenge of the Data Scientist Nanodegree in Udaci
 # Required Libraries
 This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows :
 
-  * Python
   * Numpy
   * Pandas
   * matplotlib
