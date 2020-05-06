@@ -13,6 +13,9 @@ This project was written in Python, using Jupyter Notebook on Anaconda. The rele
   * Seaborn
   * sklearn
   
+# Project Motivation
+This project part of my Data Science Nanodegree, and the objective is to try to find how Starbucks customers use the app, and how well is the current offers system. more importantly, to find patterns and show when and where to give specific offer to a specific customer.
+  
 # File Descriptions
 This repo contains 4 files :  
 
