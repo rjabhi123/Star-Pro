@@ -1,4 +1,4 @@
-# Udacity-Satrbucks-Capston-Pro
+# Udacity-Starbucks-Capston-Pro
 This is a Udacity Starbucks Capston Project
 
 # Introduction
