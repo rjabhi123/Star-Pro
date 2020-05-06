@@ -20,6 +20,8 @@ The report of my project is called 'Starbucks Capstone Challenge - Using Starbuc
 
 The data used in the project is in the files portfolio.json, profile.json and transcript.json.
  
+# Results
+The main results of the code can be found at the post available [here](https://medium.com/@rabhimanyu509/starbucks-project-9ca045b6a66c).
   
 # Acknowledgements
 I want to thank the Udacity Data Science Nano-Degree Program for giving me this opportunity to do the project.
