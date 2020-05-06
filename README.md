@@ -13,11 +13,13 @@ This project was written in Python, using Jupyter Notebook on Anaconda. The rele
   * Seaborn
   * sklearn
   
-# Files
+# File Descriptions
+This repo contains 4 files :  
 
-  * jyupter Notebook file :-  Starbucks_Capstone_notebook.ipynb
-  * HTML file :-  Starbucks_Capstone_notebook.html
-  * Data file :-  portfolio.json, profile.json and transcript.json.
+The report of my project is called 'Starbucks Capstone Challenge - Using Starbucks app user data to predict effective offers .ipynb'.
+
+The data used in the project is in the files portfolio.json, profile.json and transcript.json.
+ 
   
 # Acknowledgements
 I want to thank the Udacity Data Science Nano-Degree Program for giving me this opportunity to do the project.
