@@ -40,24 +40,50 @@ This dataset contains simulated data that mimics customer behavior on the Starbu
   * transcript
   
 The process of our analysis will be by the following step: Define our Business question, understanding the Datasets, Data preparation and wrangling, analyze the data, model the data, compare model performance, and finally selecting one model and improving it.
-   * Business Understanding :-  The objective here is to find patterns and show when and where to give specific offer to a specific   customer.
+   * Business Understanding :-  The objective here is to find patterns and show when and where to give specific offer to a specific                                     customer.
    * Data Understanding :- Let’s see table by table so we can have an overview.
-   * Data preparation and wrangling :- Based on what we have seen in the previous step, there needs to be some work to prepare the data for analysis and modeling.
+   * Data preparation and wrangling :- Based on what we have seen in the previous step, there needs to be some work to prepare the data                                        for analysis and modeling.
    * Analyzing the Data : - For this part, it will be divided into Univariate Exploration and Multivariate Exploration.
-      1. Univariate Exploration :- First, let’s start with the Univariate Exploration and try to answer the following questions:
+   
+        1. Univariate Exploration :- First, let’s start with the Univariate Exploration and try to answer the following questions :
       
-          i)   What is the average income for Starbucks customers?
+              i)   What is the average income for Starbucks customers?
           
-          ii)  What is the average age for Starbucks customers?
+              ii)  What is the average age for Starbucks customers?
           
-          iii) What is the most common promotion?
+              iii) What is the most common promotion?
           
-          iv) What are the most common age group and gender?
+              iv)  What are the most common age group and gender?
           
-          v)  Who are the most loyal customer (most transcripts)?
+              v)   Who are the most loyal customer (most transcripts)?
+            
+        2. Multivariate Exploration :- For our Multivariate Exploration, we will try to answer the following questions :   
+        
+              i)   What is the most common promotion for children, teens, young adult, adult and elderly customers?
+             
+              ii)  From profiles, which get more income, males or females?
+             
+              iii) Which type of promotions each gender likes?
           
-
- 
+   * Modeling the Data :- I tried to make a model that can identify which kind of offers we should give a customer. Because my model                               will guess the offer_type, I will only get those transcripts with offer id’s. So I will ignore all                                       transactions without offer id’s.
+                          Since we have a simple classification problem, I will use accuracy to evaluate my models. We want to see how                             well our model by seeing the number of correct predictions vs total number of predictions. Why choose                                   accuracy? First let’s define accuracy, the ratio of the correctly labeled subjects to the whole pool of                                 subjects. Also, accuracy answers questions like: How many students did we correctly label out of all the                                 students? It’s similar to our situation right? because we want to see how many customers use Starbucks offers.                           Furthermore, Accuracy = (TP+TN)/(TP+FP+FN+TN). Not to forget, that this is a simple classification problem, so                           this is my opinion and reasoning on why to use the easiest (accuracy).
+                          Our features will be:
+                                i)   Event. (Will be replaced from categorical to numerical)
+                                ii)  Time. (normalized)
+                                iii) Offer_id. (Will be replaced from categorical to numerical)
+                                iv)  Amount. (normalized)
+                                v)   Reward. (normalized)
+                                vi)  Age_group. (Will be replaced from categorical to numerical)
+                                vii) Gender. (Will be replaced from categorical to numerical).
+                                ix)  Income. (normalized)
+                          While our target will be offer type. 
+                          The models that I have used are :-  Logistic Regression, K-Nearest Neighbors, Decision Tree, Support Vector                             Machine, Random Forest, and Naive Bayes.
+                          
+   * Compare model performance :- Now that we have trained the data, it’s time to evaluate their performance based on accuracy.
+   * Model Improvements :- After using Grid Search with Logistic Regression we managed to get better results.
+   * Conclusion :- In this project, I tried to analyze and make model to predict the best offer to give a Starbucks customer. First I                      explored the data and see what I have to change before start the analysis. Then I did some exploratory analysis on                      the data after cleaning. After that I trained the data, then choose one model and improved it to get better results.                    In conclusion, I think that Starbucks needs to focus more on adults and Males. Also, offer more BOGO and discounts to                    their customers.
+   * Improvements :- think I got to a point where I had good results and a good understanding of the data. But to make our results even                      better, I would try to improve my data collection and fix issues I have with NaN values. I will also try to get                          even more data like location and when the transaction were completed, which branch and what time of the day. All                        these data can help us know when and where to give our offers.
+                           
 # Results
 The main results of the code can be found at the post available [here](https://medium.com/@rabhimanyu509/starbucks-project-9ca045b6a66c).
   
