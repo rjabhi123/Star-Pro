@@ -32,12 +32,12 @@ This project is the Capstone project of my Data Scientist nanodegree with Udacit
 2. Starbucks_Capstone_notebook.ipynb :- contains all the work.
 
 
-# implementation
+# Implementation
 
 This dataset contains simulated data that mimics customer behavior on the Starbucks rewarding system in their mobile application. Once every few days, Starbucks sends out an offer to users of the mobile app. The message can be an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. We are going to analyze three file:
-  * portfolio
-  * profile
-  * transcript
+  1. portfolio
+  2. profile
+  3. transcript
   
 The process of our analysis will be by the following step: Define our Business question, understanding the Datasets, Data preparation and wrangling, analyze the data, model the data, compare model performance, and finally selecting one model and improving it.
    * Business Understanding :-  The objective here is to find patterns and show when and where to give specific offer to a specific                                     customer.
