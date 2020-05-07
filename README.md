@@ -1,8 +1,26 @@
 # Udacity-Starbucks-Capstone-Pro
 This is a Udacity Starbucks Capston Project
 
-# Introduction
-It is the Starbucks Capstone Challenge of the Data Scientist Nanodegree in Udacity. In this project, we will explore the data provided by Starbucks and the given data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offers during certain weeks.
+# Installations
+This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
+
+   * pandas
+   * numpy
+   * math
+   * json
+   * matplotlib
+   * seaborn
+   * from sklearn.model_selection import train_test_split, GridSearchCV
+   * from sklearn.linear_model import LogisticRegression
+   * from sklearn.neighbors import KNeighborsClassifier
+   * from sklearn.tree import DecisionTreeClassifier
+   * from sklearn.svm import SVC
+   * from sklearn.ensemble import RandomForestRegressor
+   * from sklearn.naive_bayes import GaussianNB 
+   
+   
+   
+
    
 # Required Libraries
 This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows :
@@ -22,6 +40,9 @@ This repo contains 4 files :
 The report of my project is called 'Starbucks Capstone Challenge - Using Starbucks app user data to predict effective offers .ipynb'.
 
 The data used in the project is in the files portfolio.json, profile.json and transcript.json.
+
+# implementation
+
  
 # Results
 The main results of the code can be found at the post available [here](https://medium.com/@rabhimanyu509/starbucks-project-9ca045b6a66c).
