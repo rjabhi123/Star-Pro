@@ -1,5 +1,5 @@
 # Udacity-Starbucks-Capstone-Pro
-This is a Udacity Starbucks Capston Project
+This repository has all the code and report for my Udacity Data Scientist Nanodegree Capstone project.
 
 # Installations
 This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
@@ -18,28 +18,19 @@ This project was written in Python, using Jupyter Notebook on Anaconda. The rele
    * from sklearn.ensemble import RandomForestRegressor
    * from sklearn.naive_bayes import GaussianNB 
    
-   
-   
-
-   
-# Required Libraries
-This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows :
-
-  * Numpy
-  * Pandas
-  * matplotlib
-  * Seaborn
-  * sklearn
   
 # Project Motivation
-This project part of my Data Science Nanodegree, and the objective is to try to find how Starbucks customers use the app, and how well is the current offers system. more importantly, to find patterns and show when and where to give specific offer to a specific customer.
+This project is the Capstone project of my Data Scientist nanodegree with Udacity. As students in the nanodegree, we have the option to take part in the Starbucks Capstone Challenge. For the challenge, Udacity provided simulated data that mimics customer behavior on the Starbucks rewards mobile app.The objective is to try to find how Starbucks customers use the app, and how well is the current offers system. more importantly, to find patterns and show when and where to give specific offer to a specific customer.
   
 # File Descriptions
-This repo contains 4 files :  
 
-The report of my project is called 'Starbucks Capstone Challenge - Using Starbucks app user data to predict effective offers .ipynb'.
+1. The data used in the project is in the files : 
+     * portfolio.json :-  containing offer ids and meta data about each offer (duration, type, etc.).
+     * profile.json :- demographic data for each customer.
+     * and transcript.json :- records for transactions, offers received, offers viewed, and offers completed.
+     
+2. Starbucks_Capstone_notebook.ipynb :- contains all the work.
 
-The data used in the project is in the files portfolio.json, profile.json and transcript.json.
 
 # implementation
 
