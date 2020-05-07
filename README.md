@@ -67,16 +67,6 @@ The process of our analysis will be by the following step: Define our Business q
           
    * Modeling the Data :- I tried to make a model that can identify which kind of offers we should give a customer. Because my model                               will guess the offer_type, I will only get those transcripts with offer id’s. So I will ignore all                                       transactions without offer id’s.
                           Since we have a simple classification problem, I will use accuracy to evaluate my models. We want to see how                             well our model by seeing the number of correct predictions vs total number of predictions. Why choose                                   accuracy? First let’s define accuracy, the ratio of the correctly labeled subjects to the whole pool of                                 subjects. Also, accuracy answers questions like: How many students did we correctly label out of all the                                 students? It’s similar to our situation right? because we want to see how many customers use Starbucks offers.                           Furthermore, Accuracy = (TP+TN)/(TP+FP+FN+TN). Not to forget, that this is a simple classification problem, so                           this is my opinion and reasoning on why to use the easiest (accuracy).
-                          Our features will be:
-                                * Event. (Will be replaced from categorical to numerical) 
-                                * Time. (normalized)
-                                * Offer_id. (Will be replaced from categorical to numerical)
-                                * Amount. (normalized)
-                                * Reward. (normalized)
-                                * Age_group. (Will be replaced from categorical to numerical)
-                                * Gender. (Will be replaced from categorical to numerical).
-                                * Income. (normalized)                                
-                          While our target will be offer type. 
                           The models that I have used are :-  Logistic Regression, K-Nearest Neighbors, Decision Tree, Support Vector                             Machine, Random Forest, and Naive Bayes.
                           
    * Compare model performance :- Now that we have trained the data, it’s time to evaluate their performance based on accuracy.
