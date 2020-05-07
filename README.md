@@ -45,7 +45,8 @@ The process of our analysis will be by the following step: Define our Business q
    * Data preparation and wrangling :- Based on what we have seen in the previous step, there needs to be some work to prepare the data                                        for analysis and modeling.
    * Analyzing the Data : - For this part, it will be divided into Univariate Exploration and Multivariate Exploration.
    
-        1. Univariate Exploration :- First, let’s start with the Univariate Exploration and try to answer the following questions :
+        ## Univariate Exploration :-
+        First, let’s start with the Univariate Exploration and try to answer the following questions :
       
               i)   What is the average income for Starbucks customers?
           
