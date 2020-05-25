@@ -1,4 +1,4 @@
-# Udacity-Starbucks-Capstone-Pro
+# Starbucks-Capstone-Pro
 This repository has all the code and report for my Udacity Data Scientist Nanodegree Capstone project.
 
 # Installations
