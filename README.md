@@ -1,5 +1,5 @@
 # Starbucks-Capstone-Pro
-This repository has all the code and report for my Nanodegree Capstone project.
+This repository has all the code and report for my Machine  Nanodegree Capstone project.
 
 # Installations
 This project was written in Python, using Jupyter Notebook on Anaconda. The relevant Python packages for this project are as follows:
